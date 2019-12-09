@@ -28,7 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		03AA174A1FC84154003CB2B8 /* Agenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AA174A1FC84154003CB2B8 /* Agenda_Servidor_Servidor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agenda_Servidor_Servidor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AA174D1FC84154003CB2B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03AA17521FC84154003CB2B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03AA17551FC84154003CB2B8 /* Agenda.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Agenda.xcdatamodel; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		03AA174B1FC84154003CB2B8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03AA174A1FC84154003CB2B8 /* Agenda.app */,
+				03AA174A1FC84154003CB2B8 /* Agenda_Servidor_Servidor.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -194,9 +194,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03AA17491FC84154003CB2B8 /* Agenda */ = {
+		03AA17491FC84154003CB2B8 /* Agenda_Servidor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03AA175F1FC84154003CB2B8 /* Build configuration list for PBXNativeTarget "Agenda" */;
+			buildConfigurationList = 03AA175F1FC84154003CB2B8 /* Build configuration list for PBXNativeTarget "Agenda_Servidor" */;
 			buildPhases = (
 				03AA17461FC84154003CB2B8 /* Sources */,
 				03AA17471FC84154003CB2B8 /* Frameworks */,
@@ -206,9 +206,9 @@
 			);
 			dependencies = (
 			);
-			name = Agenda;
+			name = Agenda_Servidor;
 			productName = Agenda;
-			productReference = 03AA174A1FC84154003CB2B8 /* Agenda.app */;
+			productReference = 03AA174A1FC84154003CB2B8 /* Agenda_Servidor_Servidor.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -227,7 +227,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 03AA17451FC84154003CB2B8 /* Build configuration list for PBXProject "Agenda" */;
+			buildConfigurationList = 03AA17451FC84154003CB2B8 /* Build configuration list for PBXProject "Agenda_Servidor" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -240,7 +240,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03AA17491FC84154003CB2B8 /* Agenda */,
+				03AA17491FC84154003CB2B8 /* Agenda_Servidor */,
 			);
 		};
 /* End PBXProject section */
@@ -419,7 +419,7 @@
 				INFOPLIST_FILE = Agenda/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = apps.Agenda;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Agenda_Servidor_Servidor;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -434,7 +434,7 @@
 				INFOPLIST_FILE = Agenda/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = apps.Agenda;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Agenda_Servidor_Servidor;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -443,7 +443,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03AA17451FC84154003CB2B8 /* Build configuration list for PBXProject "Agenda" */ = {
+		03AA17451FC84154003CB2B8 /* Build configuration list for PBXProject "Agenda_Servidor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03AA175D1FC84154003CB2B8 /* Debug */,
@@ -452,7 +452,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03AA175F1FC84154003CB2B8 /* Build configuration list for PBXNativeTarget "Agenda" */ = {
+		03AA175F1FC84154003CB2B8 /* Build configuration list for PBXNativeTarget "Agenda_Servidor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03AA17601FC84154003CB2B8 /* Debug */,
