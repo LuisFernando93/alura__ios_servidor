@@ -51,5 +51,17 @@ class Localizacao: NSObject, MKMapViewDelegate {
         }
         return nil
     }
+    
+    func localizaAlunoNoWaze(alunoSelecionado: Aluno) {
+        if UIApplication.shared.canOpenURL(URL(string: "waze://")!) {
+            guard let enderecoDoAluno = alunoSelecionado.endereco else { return }
+            Localizacao().converteEnderecoEmCoordenadas(endereco: enderecoDoAluno, local: { (localizacaoEncontrada) in
+                let latitude = String(describing: localizacaoEncontrada.location!.coordinate.latitude)
+                let longitude = String(describing: localizacaoEncontrada.location!.coordinate.longitude)
+                let url:String = "waze://?ll=\(latitude),\(longitude)&navigate=yes"
+                UIApplication.shared.open(URL(string: url)!, options: [:], completionHandler: nil)
+            })
+        }
+    }
 
 }
